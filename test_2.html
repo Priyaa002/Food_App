@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Static webpage">
+  
+  <meta name="keywords" content="HTML,CSS">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Simplotel  Assessment submission by HariPriya </title>
+  
+  <style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background: linear-gradient(to right, rgb(255 105 193), rgb(255, 221, 90));
+  margin:0px;
+}
+
+.container {
+  position: relative;
+ 
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+/*.container .content {
+  position: absolute;
+  bottom: 0;
+
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}*/
+
+
+
+.container div {
+	position: absolute;
+	top: 29%;
+	background: rgb(0, 0, 0);
+	background: rgba(255, 147, 169, 0.7);
+	color: #f1f1f1;
+	width: 44%;
+	padding: 20px;
+	left: 6%;
+	/* opacity: 0.8; 
+	 font-weight: bold; */
+}
+
+
+
+/*
+.sec_3 {
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}*/
+
+
+/*-------------------------------------------------*/
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	background-image: url("img_1.jpg");
+	height: 1251px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-attachment: initial; */
+}
+
+.sec_3 h1 {
+	text-align: center;
+	color: #ffff;
+	font-size: 40px;
+	/* word-spacing: 10px; */
+	letter-spacing: 5px;
+}
+
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+.for_img4 {
+	background-image: url("img_4.jpg");
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top-right-radius: 50px;
+  background-position: center;
+}
+
+.for_img2 {
+	background-image: url("img_2.jpg");
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top-right-radius: 50px;
+  background-position: center;
+}
+
+.for_img3 {
+	background-image: url("img_3.jpg");
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top-right-radius: 50px;
+  background-position: center;
+}
+
+.white {
+	height: 450px;
+	background-color: white;
+	width: 25%;
+	padding: 20px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+
+
+
+
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.white {
+	/* flex-basis: calc(33.33% - 20px); */
+	margin: 0px auto;
+	border: 1px solid #ccc;
+}
+
+
+
+.text {
+  height: 100px;
+  text-align: center;
+ 
+}
+
+/* Media Query for Mobile Devices 
+@media (max-width: 767px) {
+  .white {
+    flex-basis: 100%;
+  }
+}*/
+
+@media (max-width: 1000px) {
+  .white {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container div {
+  
+    width: 90%;
+  }
+}
+
+
+.div_for_order {
+	text-align: center;
+}
+
+.order {
+	/* padding: 30px; */
+	width: 25%;
+	border-radius: 50px;
+	opacity: 0.6;
+	font-size: 23px;
+	font-weight: bold;
+	color: black;
+	padding: 10px 0px;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  padding-left: 13%;
+}
+
+li {
+	float: left;
+	margin: 0px 10px;
+}
+
+li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li div img {
+	height: 20px;
+}
+
+.log img {
+	padding: 0px 17px;
+}
+
+.log {
+	padding: 14px 20px;
+}
+
+.float_r{
+
+	float: right;
+
+}
+  </style>
+</head>
+<body>
+    <section class="header_sec_1">
+        <div class="header_css">
+
+          <ul>
+            <li><a class="active" href="#home">H o m e </a></li>
+            <li><a href="#order">O r d e r</a></li>
+            <li><a href="#food">F o o d</a></li>
+            <li><a href="#restaurant">R e s t a u r a n t </a></li>
+
+            <li><a  href="#testimonials">T e s t i m o n i a l s </a></li>
+            <li><a href="#contact">C o n t a c t U s</a></li>
+            <!--<li><a href="#"><img src="phone.png"></a></li>
+            <li><a href="#"><img src="cart.png"></a></li>-->
+            <li class="float_r"><div class="log"><img src="phone1.png">
+              <img src="cart.png">
+
+            </div></li>
+          </ul>
+
+
+
+           
+
+
+        </div>
+    </section>
+
+    <section class="sec_2">
+
+        
+        <div class="container">
+            <!--<img src="img1.jpg" alt="bk" style="width:100%;">-->
+            <div class="content">
+            <h1>LOREM IPSUM</h1>
+            <p>Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took
+                a galley of type and scrambled it to make a type
+                specimen book.</p>
+            </div>
+        </div>
+        
+    </section><br><br><br>
+
+    <section class="sec_3">
+      <h1>Order Now</h1>
+      <div class="for_3_rows">
+        <div class="image-container">
+          <div class="white">
+              <div class="for_img4"></div>
+              <div class="text">
+                <h3>BURGER</h3>
+                <p>Lorem Ipsum has been the
+                  industry's standard dummy text</p>
+              </div>
+
+            </div>
+
+            <div class="white">
+              <div class="for_img2"></div>
+              <div class="text">
+
+                <h3>PIZZA</h3>
+                <p>Lorem Ipsum has been the
+                  industry's standard dummy text</p>
+              </div>
+
+            </div>
+
+            <div class="white">
+              <div class="for_img3"></div>
+              <div class="text">
+
+                <h3>PASTA</h3>
+                <p>Lorem Ipsum has been the
+                  industry's standard dummy text</p>
+              </div>
+
+            </div>
+          </div>
+
+       
+
+      </div>
+
+      <br><br><br>
+
+      <div class="div_for_order"><button class="order">Order</button></div>
+
+      <br><br><br><br>
+        
+    </section>
+
+
+</body>
+</html>
